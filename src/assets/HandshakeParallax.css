@@ -1,0 +1,35 @@
+.parallax-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hand {
+  position: absolute;
+  width: 200px;
+  transition: transform 0.3s ease-out;
+}
+
+.left-hand {
+  left: 0;
+  transform: translateX(-50vw);
+}
+
+.right-hand {
+  right: 0;
+  transform: translateX(50vw);
+}
+
+.handshake-text {
+  position: relative;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
